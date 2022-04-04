@@ -4,8 +4,10 @@ using namespace std;
 
 int main(){
     int n,s;
+    cout<<"Enter size :";
     cin>>n;
     int a[n];
+    cout<<"Enter array elements:";
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
