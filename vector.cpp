@@ -48,8 +48,12 @@ int main(){
     cout<<"Vector element are :";
     for(auto it=v.begin();it != v.end();it++){
         cout<<*it<<" ";
-    }
-    
+    }  
+    cout<<endl;
+    //Element access
+    cout<<"The element at 4th index is :"<<v.at(4)<<endl;
+    cout<<"The element at the front is :"<<v.front()<<endl;
+    cout<<"The element at the end is : "<<v.back()<<endl;
 
 
     return 0;
