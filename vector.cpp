@@ -28,5 +28,29 @@ int main(){
     for(auto i=v.crbegin(); i != v.crend() ; i++){
         cout<<*i<<" ";
     }
+
+    //Capacity
+
+    cout<<"The size of the vector is : "<<v.size()<<endl;
+
+    cout<<"The maximum size of the vector is :"<<v.max_size()<<endl;
+
+    cout<<"The capacity of the vector is : "<<v.max_size()<<endl;
+
+    int n=20;
+    v.resize(n);
+    cout<<"After resizing, the size of the vector is :"<<v.size()<<endl;
+
+    vector<int> v2;
+    cout<<"The empty vector :"<<v2.empty()<<endl;
+
+    v.shrink_to_fit();
+    cout<<"Vector element are :";
+    for(auto it=v.begin();it != v.end();it++){
+        cout<<*it<<" ";
+    }
+    
+
+
     return 0;
 }
