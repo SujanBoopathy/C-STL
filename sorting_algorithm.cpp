@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(){
+void main(){
     int n;
     cin>>n;
     int a[n];
@@ -20,5 +20,5 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<a[i]<<"\t";
     }
-    return 0;
+    
 }
